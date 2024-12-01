@@ -1,0 +1,35 @@
+{
+  "name": "everyjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsup --watch",
+    "build": "tsup",
+    "format": "npm run prettier && npm run check-types && npm run lint && npm run check-format",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --write .",
+    "check-types": "tsc --pretty --noEmit",
+    "check-format": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EveryJS/everyjs.git"
+  },
+  "author": "Gabriel Juninho Paulista <gabrieltobing789@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EveryJS/everyjs/issues"
+  },
+  "homepage": "https://github.com/EveryJS/everyjs#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.4.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.16.0"
+  }
+}
