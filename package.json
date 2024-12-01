@@ -16,9 +16,9 @@
       "require": "./dist/index.js"
     },
     "./ascii": {
-      "types": "./ascii/index.d.ts",
-      "import": "./ascii/index.mjs",
-      "require": "./ascii/index.js"
+      "types": "./dist/ascii/index.d.ts",
+      "import": "./dist/ascii/index.mjs",
+      "require": "./dist/ascii/index.js"
     }
   },
   "files": [
