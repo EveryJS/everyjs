@@ -14,4 +14,9 @@ export default defineConfig([
     entry: ["src/index.ts"],
     outDir: "dist",
   },
+  {
+    ...commonConfig,
+    entry: ["src/ascii/index.ts"],
+    outDir: "dist/ascii",
+  },
 ]);

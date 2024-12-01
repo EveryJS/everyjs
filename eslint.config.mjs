@@ -6,7 +6,7 @@ import tseslint from "typescript-eslint";
 export default [
   { files: ["**/*.{js,mjs,cjs,ts}"] },
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
-  { ignores: ["**/node_modules/", "**/dist/"] },
+  { ignores: ["**/node_modules/", "**/dist/", "**/coverage/"] },
   {
     rules: {
       indent: ["error", 2],

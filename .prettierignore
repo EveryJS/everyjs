@@ -20,3 +20,6 @@ tsconfig.json
 
 # tsup
 tsup.config.ts
+
+# jest
+jest.config.js
